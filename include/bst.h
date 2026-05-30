@@ -48,6 +48,7 @@ class BST {
       collectHelper(node->right, vec);
     }
   }
+
  public:
   BST() : root(nullptr) {}
   ~BST() { destroy(root); }
